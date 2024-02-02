@@ -25,6 +25,9 @@ hb_cutzz is a modern and convenient barber shop website designed for users to bo
 
 ```bash
 git clone https://github.com/your-username/hb_cutzz.git
+```
+
+
 
 2. Install dependencies:
 
