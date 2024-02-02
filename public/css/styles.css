@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #F8F5EF;
+}
+
+.header {
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+.header-content {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.header-content h1 {
+    font-family: 'Barlow' sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-content p {
+     font-family: 'Work Sans', sans-serif;
+     font-size: 1.4em;
+     font-weight: 500;
+     color: #fff;
+     text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons a {
+    all: unset;
+    font-size: 1.2em;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.button-default {
+    margin-right: 20px;
+    background-color: #DEC7A6;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-solid {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infobox {
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 25vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: -20vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.address, .phone, .hours {
+
+    width: 20%;
+    text-align: center;
+}
+
+.address h3, .phone h3, .hours h3 {
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #DEC7A6;
+    text-transform: uppercase;
+}
+
+/* ABOUT US SECTION */
+
+.about-us {
+    margin-top: 30vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-us-content {
+    margin-top: 10vh;
+    
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-content {
+    width: 50%;
+}
+
+.image-content img{
+    max-width: 100%;
+}
+
+.text-content {
+    height: 80%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text-content h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Barlow' sans-serif;
+    font-weight: 800;
+    letter-spacing: 2.49px;
+}
+
+.text-content p {
+    font-size: 1.1em;
+}
+
+.numbers {
+    display: flex;
+    height: 30%;
+}
+
+
+.customer {
+    margin-right: 100px;
+}
+
+.customer, .years {
+    
+    width: 20%;
+    
+}
+
+.customer h3, .years h3 {
+    font-size: 3.5em;
+}
+
+.customer span, .years span {
+    color: #DEC7A6;
+}
+
+.customer p, .years p {
+    font-size: 1.4em;
+}
+
+.services {
+    
+    height: 100vh;
+}
+
+.services-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content-service {
+
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-content-service h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: 'Barlow' sans-serif;
+    font-weight: 800;
+    letter-spacing: 2.49px;
+}
+
+.text-content-service p {
+    width: 50%;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.services-grid {
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.service {
+    
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-img {
+    
+    width: 20%;
+}
+
+.service-details {
+    width: 60%;
+}
+
+.service-details h3 {
+    font-size: 1.4em;
+}
+
+.service-details p {
+    margin: 10px 0;
+}
+
+
+.services-button-default {
+    text-align: center;
+    background-color: #DEC7A6;
+    width: 20%;
+    padding: 10px 0;
+}
+
+.services-button-default a {
+    all: unset;
+    font-size: 1.2em;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.call-to-action {
+    margin-top: 10vh;
+    background-image: url(../images/handsome-man-barbershop-shaving-beard.png);
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-content {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-content h2 {
+    font-family: 'Barlow' sans-serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.call-to-action-button-default {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #DEC7A6;
+    width: 40%;
+    padding: 10px 0;
+}
+
+.call-to-action-button-default a {
+    all: unset;
+    font-size: 1.2em;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.why {
+    height: 100vh;
+    
+}
+
+.why-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.why-card {
+    
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 20%;
+}
+
+.card h3 {
+    border-bottom: 3px solid #DEC7A6;
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+
+.reviews-container {
+    
+    height: 40%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.statestic-review {
+    
+    height: 70%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statestic-review:first-of-type(img) {
+    width: 20%;
+}
+
+.statestic-review h3 {
+    margin-top: 10px;
+}
+
+.statestic-review h2 {
+    font-size: 4em;
+}
+
+.statestic-review p {
+    margin-top: 10px;
+}
+
+.review {
+    border: 1px solid #DEC7A6;
+    position: relative;
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.review h3 {
+    margin: 10px 0;
+}
+
+.review p {
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    position: absolute;
+    top: -50px;
+}
+
+.hero {
+    background-image: url(../images/image.png);
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+   
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text-content {
+
+    width: 40%;
+}
+
+.hero-text-content h2 {
+    color: #fff;
+    font-size: 4em;
+}
+
+.hero-text-content p {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+
+
+.phone-info, .email-info {
+    display: flex;
+    align-items: center;
+}
+
+
+.phone-box, .email-box {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.appointement-form {
+    height: 130%;
+    width: 40%;
+    background-color: #fff;
+    z-index: 2;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    all: unset;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+}
+
+.phone-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone,
+.email {
+    width: 48%;
+}
+
+button {
+    background-color: #DEC7A6;
+    padding: 10px 30px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+.map {
+    background-image: url(../images/map.png);
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    height: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-border {
+    height: 5vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+}
+
+.footer h3 {
+    color: #fff;
+}
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    
+    .image-content {
+        display: flex;
+        justify-content: end;
+    }
+    .image-content img{
+        width: 90%;
+    }
+
+    .text-content {
+        width: 40%;
+    }
+    
+    .text-content h2 {
+        font-size: 2.5em;
+    }
+
+    .customer h3, .years h3 {
+        font-size: 3em;
+    }
+
+    .infobox {
+        height: 20vh;
+        bottom: -15%;
+    }
+
+    .address img, .phone img, .hours img {
+        width: 15%;
+    }
+
+    .address h3, .phone h3, .hours h3 {
+        margin: 5px;
+    }
+
+    .about-us {
+        height: 70VH;
+    }
+
+    .services-grid {
+        width: 70%;
+    }
+
+    .service {
+        width: 45%;
+    }
+
+    .text-content-service h2 {
+        font-size: 2.5em;
+    }
+
+    .why-card, .reviews-container {
+        width: 80%;
+    }
+
+    .review {
+        height: 80%;
+        justify-content: flex-end;
+    }
+
+    .thumbnail {
+        width: 20%;
+        top: -15%;
+    }
+    
+}
