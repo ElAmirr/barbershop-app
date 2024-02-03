@@ -498,9 +498,9 @@ input, textarea {
     justify-content: space-between;
 }
 
-.phone,
-.email {
-    width: 48%;
+.phone-forme .email-forme {
+    width: 49%;
+    margin-right: 10px;
 }
 
 button {
@@ -531,6 +531,7 @@ button {
     height: 5vh;
     background-color: #000;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -538,8 +539,9 @@ button {
     display: flex;
 }
 
-.footer h3 {
+.footer-border h3 {
     color: #fff;
+    font-size: 1em;
 }
 
 
@@ -610,4 +612,24 @@ button {
         top: -15%;
     }
     
+    .hero-content {
+        height: 100%;
+    }
+
+    .appointement-form {
+        margin-top: 50px;
+    }
+
+    .phone-box, .email-box {
+        height:50px ;
+        width: 50px;
+    }
+    .phone-box img, .email-box img {
+        width: 50%;
+    }
+
+    .hero-text-content p {
+        margin: 10px 0;
+    }
+
 }
