@@ -1,6 +1,6 @@
 # hb_cutzz - Barber Shop Website
 
-![hb_cutzz Logo](./path/to/your/logo.png)
+![hb_cutzz Logo](./public/images/screenshots/logo.png)
 
 ## Description
 
